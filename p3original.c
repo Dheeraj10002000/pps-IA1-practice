@@ -3,7 +3,7 @@ int input_n()
 {
   int n;
   printf("enter a number\n");
-  scanf("%d"&n);
+  scanf("%d",&n);
   return n;
 }
 int sum_n(int n)
